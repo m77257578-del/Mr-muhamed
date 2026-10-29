@@ -295,6 +295,9 @@ export interface TeacherData {
   codes: ActivationCode[];
   socialLinks?: SocialLink[];
   gateways?: ManualGateway[];
+  paymentGateways?: ManualGateway[];
   walletTransactions?: WalletTransaction[];
+  walletRechargeRequests?: WalletTransaction[];
+  packageOrders?: any[];
 }
 

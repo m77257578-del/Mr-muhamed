@@ -59,23 +59,12 @@ export const Header: React.FC<HeaderProps> = ({
       >
         {/* Top Controls Bar: "تسجيل الدخول فوق خالص وبجانبه الوضع الفاتح والداكن فى صورة ايقونه صغيره وكمان جنبهم زر تثبيت التطبيق" */}
         <div className="flex flex-wrap items-center justify-between gap-3 mb-6 pb-4 border-b border-blue-500/15">
-          {/* Platform Identity & Official link */}
+          {/* Platform Identity */}
           <div className="flex flex-wrap items-center gap-2">
             <span className="badge-pill bg-blue-950/40 text-blue-300 border-blue-500/30">
               <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-              <span>منصة تصميم ليرن ويب</span>
+              <span>المنصة التعليمية الشاملة</span>
             </span>
-
-            <a
-              href={LEARN_WEB_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="badge-pill bg-cyan-950/50 text-cyan-300 border-cyan-400/40 hover:bg-cyan-900/50 hover:text-white transition-all shadow-sm flex items-center gap-1.5"
-            >
-              <Globe className="w-3.5 h-3.5 text-cyan-400" />
-              <span>موقع ليرن ويب الرسمي</span>
-              <ExternalLink className="w-3 h-3 text-cyan-400" />
-            </a>
           </div>
 
           {/* Top Actions: Login button + Small Theme Icon button + Install App button */}
